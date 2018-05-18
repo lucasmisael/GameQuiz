@@ -29,6 +29,7 @@
 
     <!-- Custom styles for this template -->
     <link href="../css/freelancer.min.css" rel="stylesheet">
+    <link href="../css/game.css" rel="stylesheet">
 
   </head>
 
@@ -38,17 +39,17 @@
 
       
 
-      <!--++++++++++++++++++++++++GaME++++++++++++++++++++++ -->
+    
 <br>
     <form id="formGame" action="../controller/GameController.php?Operacao=jogo" method="POST">  
       <section id="contact">
         <div class="container">
-          <h2 class="text-center text-uppercase text-secondary mb-0">Quiz</h2>
+          <h2 class="text-center text-uppercase text-secondary mb-0 subtitulo">Quiz</h2>
           <hr class="star-dark mb-5">
             <div class="row">
-              <div class="col-lg-4 mr-auto">
+              <div class="col-lg-4 mr-auto radio-green">
                 <p class="lead">Era uma vez a história de quatro homens: João, José, Jacinto e Joel. Os quatro eram construtores de barcos e em quatro dias conseguiam construir quatro embarcações. Quanto tempo demoraria um dos quatro homens para construir um único barco?</p>
-                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A" /> 
+                <input type="radio" name="question-1-answers" id="question-1-answers-A" value="A"  class="form-check radio-green"/> 
                 <label for="question-1-answers-A" class="lead">A) 3 dias </label> 
                 <br>
                 <input type="radio" name="question-1-answers" id="question-1-answers-B" value="B" />
@@ -61,6 +62,28 @@
         </div>
       </section>      
       <br>
+      
+      <section>
+        <div class="container">      
+          <div class="row">
+            <div class="col-lg-4 mr-auto">
+              <p class="lead">Whether you're a student looking to showcase your work,BLA| BLA! a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
+              <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" /> 
+              <label for="question-1-answers-A" class="lead">A) OpçãoA </label> 
+              <br>
+              <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
+              <label for="question-1-answers-B" class="lead">B) OpçãoB </label> 
+              <br>
+              <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
+              <label for="question-1-answers-B" class="lead">C) OpçãoC </label> 
+            </div>
+          </div>
+          <div>
+            <button id="btnENviar" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </section>
+      
       <section>
         <div class="container">      
           <div class="row">
