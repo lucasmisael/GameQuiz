@@ -59,7 +59,7 @@
         <hr class="star-light mb-5">
         <div class="row">
           <div class="col-lg-4 ml-auto">
-            <p class="lead">O intuíto principal desse projeto é demonstrar como a utilização de Games podem contribuir para o conhecimento de novas tecnologias ou novos materiais.</p>
+            <p class="lead">O intuíto principal desse projeto é demonstrar como a utilização de Games podem contribuir para o conhecimento de novas tecnologias ou novos materiais. Foi utilizado perguntas baseadas em concursos publicos, auxiliando ainda mais os alunos. </p>
           </div>
           <div class="col-lg-4 mr-auto">
             <p class="lead">É interessante observarmos como podemos diminuir um grande desafio em pequenas perguntas e respostas, facilitando o entendimento do assunto.</p>
@@ -87,15 +87,10 @@
                   <i class="fa fa-fw fa-facebook"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-google-plus"></i>
-                </a>
-              </li>
 
               <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="#">
-                  <i class="fa fa-fw fa-linkedin"></i>
+                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/lucasmisael">
+                  <i class="	fa fa-github"></i>
                 </a>
               </li>
             

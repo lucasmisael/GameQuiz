@@ -15,3 +15,8 @@
           </div>
         </div>
       </nav>
+
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0 subtitulo">Quiz</h2>
+        <hr class="star-dark mb-5">
+    </div>

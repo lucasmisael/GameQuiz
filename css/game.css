@@ -18,14 +18,19 @@
   background-color:#f4ff81 ;
   border-color: #f4ff81 ;  
  }
-
-.container ul{
+ 
+/* .container ul{
     list-style: none;
     margin: 0;
     padding: 0;
       overflow: auto;
-  }
-  
+  } */
+
+.img_Resposta{
+  height:10px;
+  background-color:red;
+}
+  /*
   ul li{
     color: #AAAAAA;
     display: block;
@@ -90,20 +95,10 @@
       -webkit-transition: background 0.25s linear;
   }
   
-  input[type=radio]:checked ~ .check {
-    border: 5px solid #0DFF92;
-  }
-  
-  input[type=radio]:checked ~ .check::before{
-    background: #0DFF92;
-  }
-  
-  input[type=radio]:checked ~ label{
-    color: #0DFF92;
-  }
+
   
   .subtitulo{
     margin:3%;
   }
 
-  
+   */

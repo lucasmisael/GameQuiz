@@ -27,6 +27,7 @@
     </head>
         
     <body>
+        
         <section>
             <!-- Navigation -->
             <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
@@ -46,22 +47,30 @@
                 </div>
             </nav>
         </section>
-           
-        <section id="contact">
-            <div class="container">
-                <h2 class="text-center text-uppercase text-secondary mb-0">Quiz</h2>
-                <hr class="star-dark mb-5">
+        <div class="container">
+            <h2 class="text-center text-uppercase text-secondary mb-0">Quiz</h2>
+            <hr class="star-dark mb-5">
+            <div class="col-xs-6 img-responsive">
                 
-                <div class='row'>
-                    <div class='col-lg-12 col-md-12 col-sm-12 mr-auto'>    
-                        <div class=<div class='col-lg-12 mr-auto'>
-                            <h1 class='lead text-center text-uppercase text-secondary mb-0'>%Resposta% </h2>
-                            <h2 class='lead text-center'>Voce Acertou #$totalCorrect# / 2 </h2>
-                            <h2 class='lead text-center'>Você errou a(s) pergunta(s) - #RespostasErradas# </h2>
-                        </div>
-                    </div>        
-                </div>
-            </div>    
-        </section>
+                %IMAGEM%
+                
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="col-xs-6">
+                
+                <h1 class='lead text-center text-uppercase text-secondary mb-0'>%Resposta% </h2>
+                <h2 class='lead text-center'>Voce Acertou #$totalCorrect# / 4 </h2>
+                <h2 class='lead text-center'>Você errou a(s) pergunta(s) - #RespostasErradas# </h2>
+                
+            </div>
+        </div>
+           
+        <div class="copyright py-4 text-center text-white">
+            <div class="container">
+                <small>Questões baseadas em: https://www.qconcursos.com & www.aprovaconcursos.com.br</small>
+            </div>
+        </div>
     </body>
 </html>
